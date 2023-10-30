@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nerdbug_portfolio/presentation/home/home_screen_ui.dart';
+import 'package:nerdbug_portfolio/presentation/my_work/screen/my_work_screen_ui.dart';
 
 class NerdbugHome extends StatefulWidget {
   const NerdbugHome({super.key});
@@ -15,7 +16,7 @@ class _NerdbugHomeState extends State<NerdbugHome> {
 
   final List<Widget> _widgetOptions = [
     const HomeScreenUi(),
-    Container(),
+    const MyWorkScreenUi(),
     Container(),
   ];
 
