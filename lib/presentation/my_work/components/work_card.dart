@@ -54,6 +54,39 @@ class WorkCard extends StatelessWidget {
                 color: Colors.black,
               ),
             ),
+            const SizedBox(
+              height: 24,
+            ),
+            Align(
+              alignment: Alignment.centerRight,
+              child: TextButton(
+                onPressed: () {},
+                style: ButtonStyle(
+                  padding: MaterialStateProperty.all(
+                    const EdgeInsets.symmetric(vertical: 8, horizontal: 10),
+                  ),
+                  backgroundColor: MaterialStateProperty.all(
+                    const Color(0xffD5A778),
+                  ),
+                  shape: MaterialStateProperty.all(
+                    const RoundedRectangleBorder(
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(10),
+                      ),
+                    ),
+                  ),
+                ),
+                child: Text(
+                  "View my work",
+                  style: GoogleFonts.montserrat(
+                    textStyle: Theme.of(context).textTheme.displayMedium,
+                    fontSize: 12,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
+            )
           ],
         ),
       ),

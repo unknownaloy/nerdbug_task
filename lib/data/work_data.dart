@@ -16,10 +16,4 @@ final workData = <WorkModel>[
     role: "Mobile Developer",
     company: "Sparks Universe",
   ),
-
-  WorkModel(
-    date: "January 2020 - May 2022",
-    role: "Mobile Developer",
-    company: "Sparks Universe",
-  ),
 ];
